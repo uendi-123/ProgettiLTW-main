@@ -1,0 +1,96 @@
+/* line 15, ../../Google Drive/File VS Code/LTW/ProgettiLTW/scss/style.sass */
+div.searchDiv {
+  background-color: inherit;
+  margin: auto;
+  /* min-width: 500px */
+  width: 100%;
+  border: 1px white solid;
+  border-radius: 5px;
+}
+
+/* line 23, ../../Google Drive/File VS Code/LTW/ProgettiLTW/scss/style.sass */
+div.newsletterDiv {
+  background-color: inherit;
+  min-width: 400px;
+  border-radius: 5px;
+  padding: 12px;
+  margin-top: ($spacer * .5) !important;
+}
+
+/* line 29, ../../Google Drive/File VS Code/LTW/ProgettiLTW/scss/style.sass */
+.btnToSpread {
+  width: 100%;
+}
+
+/* line 32, ../../Google Drive/File VS Code/LTW/ProgettiLTW/scss/style.sass */
+.rowCards {
+  height: 14em;
+}
+
+/* line 35, ../../Google Drive/File VS Code/LTW/ProgettiLTW/scss/style.sass */
+.colSleep {
+  background-color: inherit;
+}
+
+/* line 39, ../../Google Drive/File VS Code/LTW/ProgettiLTW/scss/style.sass */
+.normalCard {
+  background-color: white;
+}
+.activeCard {
+  background-color: inherit;
+  color: white;
+}
+
+/* line 43, ../../Google Drive/File VS Code/LTW/ProgettiLTW/scss/style.sass */
+.normalSpanCard {
+  /* font-size: 2em; */
+  margin: auto;
+  border-bottom: 2px white solid;
+}
+
+/* line 48, ../../Google Drive/File VS Code/LTW/ProgettiLTW/scss/style.sass */
+.activeSpanCard {
+  /* font-size: 2em; */
+  color: red;
+  margin: auto;
+  border-bottom: 5px red solid;
+}
+.dinamicDiv{
+  background-color: inherit;
+}
+
+.toBeArrotondato{
+  border-radius: 10px;
+}
+
+
+.gitIcon{
+  color: white;
+}
+
+.gitIcon:hover{
+  color: white;
+}
+
+.buttone{
+  width: 100%;
+  height: 100%;
+}
+@media screen and (max-width: 1400px){
+  .fluidImg{
+    width: 100%;
+    height: 60%;
+  }
+}
+
+@media screen and (max-width: 768px){
+  .fluidImg{
+    width: 100%;
+    height: 70%;
+  }
+}
+
+.fluidImgOrdina{
+  width: 100%;
+  height: auto;
+}
